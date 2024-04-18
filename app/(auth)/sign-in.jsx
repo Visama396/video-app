@@ -24,6 +24,8 @@ const SignIn = () => {
     }
     setIsSubmitting(true);
 
+    // if account doesn't exist, redirect to sign up page with the data already submitted
+    
     try {
       await signIn(form.email, form.password)
       const result = await getCurrentUser()

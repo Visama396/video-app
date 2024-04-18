@@ -17,7 +17,8 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "package": "com.visamalog.videolog"
+      "package": "com.visamalog.videolog",
+      "bundleIdentifier": "com.visamalog.videolog"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,6 +32,14 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0be463d6-a301-46cd-bc30-2a01d7d29d41"
+      }
+    }
   }
 }
