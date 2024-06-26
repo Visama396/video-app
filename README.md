@@ -1,4 +1,4 @@
-#Aora APP
+# Aora APP
 If you want to test this app first clone this repository.
 Then install anything you need with npm install 
 You can start the application with the command npx expo start -c and wait until you see the QR Code.
